@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.2rem;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  background: linear-gradient(to right, rgb(97, 5, 5), rgb(58, 58, 166));
+}
+
+.left-text {
+  flex-basis: 30px;
+}
+
+.heading {
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+}
+
+.subheading {
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.gallery {
+  flex-basis: 50%;
+  display: grid;
+  /* template columns make the columns in your grid and give your other rows auto set by you */
+  gap: 8px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 120px;
+}
+
+.box {
+  /* to make show your image properly  */
+  background-size: cover;
+  /* if your image is not with aspect ratio then use this position */
+  background-position: top;
+  color: wheat;
+
+  /* to make the text center make it flex and then */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* to apply the gradient to your images there are two method one is with div or 2nd is make it blend the image */
+  background-color: #222;
+  background-blend-mode: hard-light;
+
+  /* to give simple transtiion */
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
+
+.box:hover {
+  background-color: #999;
+  /* make position center using hover */
+  background-position: center;
+}
+
+/* to make it span use this method */
+/* #box1{
+    grid-row: span 2;
+} */
+
+/* utility classes for span  */
+/* by using utility classes no need to repeat the every style */
+.col-2 {
+  grid-column: span 2;
+}
+.row-2 {
+  grid-row: span 2;
+}
