@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.container{
+    padding: 0px 9px;
+    max-width:1480px;
+}
+.heading-h1{
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.sub-heading{
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+}
+.sub-heading p{
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-right: 10px;
+}
+.sub-heading span{
+    font-weight: 300;
+    color: #555;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+}
+.sub-heading .impo{
+    color: crimson;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+article p:first-child::first-line{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* !article */
+article > p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    columns: 3 25ch;
+    column-gap: 40px;
+    hyphens: auto;
+}
+
+.heading-2{
+    font-size: 40px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+.heading-3{
+   font-size: 20px;
+   text-transform: uppercase; 
+   color: crimson;
+   margin-bottom: 10px;
+}
+
+/* !Home */
+.home{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+}
+.Home-img{
+    width: 100%;
+    height: 500px;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.list img{
+    width: 100%;
+    height: 80px;
+}
+
+/* blackquote */
+blockquote{
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+blockquote:before{
+    content: open-quote;
+    position: absolute;
+    font-size: 150px;
+    top: -48px;
+    left: -4px;
+    opacity: .3;
+    color: #666;
+}
+
+.cards{
+    columns:25ch 3;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+.card{
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    break-inside: avoid;
+}
+
+@media (max-width:950px){
+    .home{
+        grid-template-columns: 1fr;
+    }
+
+    .lists{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .list{
+        grid-template-columns: 1fr 5fr;
+    }
+    .card{
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width:650px){
+    .lists{
+        grid-template-columns: 1fr;
+    }
+}
