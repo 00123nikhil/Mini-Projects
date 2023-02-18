@@ -1,21 +1,20 @@
 
-# About Us
+# Newspaper Layout Website
 
-The Newspaper layout using Grid template in Css.<br>
-the langauge are HTML & CSS. 
+- newspaper layout website is a responsive web application developed using HTML, CSS, and JavaScript.
+- The website is also mobile-friendly and can be accessed from different devices, including smartphones and tablets.
 
-## 🚀 About Me
-Hi,
- 
-I'm Nikhil Borse,
 
-🔭 I’m currently working on Web Development.
+# Screenshots
 
-👯 I’m looking to collaborate on Interesting project based on Web Development.
+![Screenshot]()
 
-🌱 Enthusiast in DevOps and Full Stack Development.
+![Newslayout ss1](https://user-images.githubusercontent.com/95076182/219865803-ca7de89d-0ede-4430-ad75-037e6e6b1e20.png)
 
-🤔 Exploring new technologies and developing software solutions
+![Newslayout ss2](https://user-images.githubusercontent.com/95076182/219865797-76be5757-a10c-4ca0-8e64-71bf9ff6ff4a.png)
+
+
+
 
 
 ## 🔗 Links
@@ -23,9 +22,5 @@ I'm Nikhil Borse,
 
 
 
-## Screenshots
 
-![App Screenshot]()
-![Newslayout ss1](https://user-images.githubusercontent.com/95076182/219865803-ca7de89d-0ede-4430-ad75-037e6e6b1e20.png)
-![Newslayout ss2](https://user-images.githubusercontent.com/95076182/219865797-76be5757-a10c-4ca0-8e64-71bf9ff6ff4a.png)
 
