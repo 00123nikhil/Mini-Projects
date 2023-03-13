@@ -2,8 +2,12 @@
 
 # Flipkart clone assets
 
+
 ## Screenshort
 ![FlipKart Clone 2023](https://user-images.githubusercontent.com/95076182/224682466-1b7b2a7e-d979-4b40-80f4-7b7bf6e2ac77.png)
+
+![Flipkart clone code](https://user-images.githubusercontent.com/95076182/224683058-2f3a1015-8b56-4b73-88b1-56d4e8867a2e.png)
+
 
 
 ## FAVICON
