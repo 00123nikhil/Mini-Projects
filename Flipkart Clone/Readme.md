@@ -2,6 +2,10 @@
 
 # Flipkart clone assets
 
+## Screenshort
+![FlipKart Clone 2023](https://user-images.githubusercontent.com/95076182/224682466-1b7b2a7e-d979-4b40-80f4-7b7bf6e2ac77.png)
+
+
 ## FAVICON
 
 https://static-assets-web.flixcart.com/www/promos/new/20150528-140547-favicon-retina.ico
@@ -9,6 +13,7 @@ https://static-assets-web.flixcart.com/www/promos/new/20150528-140547-favicon-re
 ## FONT FAMILY
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 
 ## LOGO
 
